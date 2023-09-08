@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #0093e9;
+}
+
+.all_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: 90%;
+}
+
+button {
+    background-color: #0093e9;
+    font-size: 24px;
+    color: #FFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.wish {
+    background-color: #0093e9;
+    color: #FFFF;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    word-break: break-all; 
+    animation: anime 0.5s linear;
+}
+
+.wish_click {
+    background-color: #c33636;
+}
+
+@keyframes anime {
+    from {
+        transform: translateY(50px);
+    }
+}
